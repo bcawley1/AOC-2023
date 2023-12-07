@@ -32,7 +32,8 @@ public class Hand implements Comparable {
 
     @Override
     public int compareTo(Object o) {
-        return "".compareTo();
+//        return "".compareTo();
+        return 1;
     }
 
     enum Type {FIVE_OF_KIND, FOUR_OF_KIND, FULL_HOUSE, THREE_OF_KIND, TWO_PAIR, ONE_PAIR, HIGH_CARD}
